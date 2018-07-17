@@ -122,8 +122,8 @@ for SKILL in SKILL_LIST:
     freelancers[SKILL] = freelancers['skill_list'].apply(skill_in_skill_list_column, args=(SKILL,))
 
 # Writing csv with skill columns 
-#freelancers.info()
-#freelancers.to_csv('freelancers_skills.csv', sep=',', encoding='utf-8', index=False)
+freelancers.info()
+freelancers.to_csv('freelancers_skills.csv', sep=',', encoding='utf-8', index=False)
 
 #### SKILLS IN FREELANCERS DATAFRAME END ####
 
