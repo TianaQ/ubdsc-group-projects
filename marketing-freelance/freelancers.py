@@ -67,16 +67,23 @@ def get_region(country_code):
         region = 'NA'
     return region
 
+def get_iso_code(country_code):
+    try:
+        iso_code = COUNTRY_DICT[country_code][2]
+    except:
+        print("Missing ISO code: " + country_code)
+        iso_code = 'NA'
+    return iso_code
 
 freelancers['city'] = freelancers['Location'].apply(get_city)
 freelancers['country_code'] = freelancers['Location'].apply(get_country_code)
 freelancers['country_name'] = freelancers['country_code'].apply(get_country_name)
 freelancers['region'] = freelancers['country_code'].apply(get_region)
-
+freelancers['iso_code'] = freelancers['country_code'].apply(get_iso_code)
 #### LOCATION IN FREELANCERS DATAFRAME END ####
 
-#freelancers.info()
-#freelancers.to_csv('freelancers.csv', sep=',', encoding='utf-8', index=False)
+freelancers.info()
+freelancers.to_csv('freelancers.csv', sep=',', encoding='utf-8', index=False)
 
 
 #### SKILLS IN FREELANCERS DATAFRAME START ####

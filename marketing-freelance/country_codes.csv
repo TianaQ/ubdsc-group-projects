@@ -1,251 +1,251 @@
-Code,Country Name,Region
-AD,Andorra,Europe
-AE,United Arab Emirates,Arab States
-AF,Afghanistan,Asia & Pacific
-AG,Antigua and Barbuda,South/Latin America
-AI,Anguilla,South/Latin America
-AL,Albania,Europe
-AM,Armenia,Europe
-AO,Angola,Africa
-AQ,Antarctica,Asia & Pacific
-AR,Argentina,South/Latin America
-AS,American Samoa,Asia & Pacific
-AT,Austria,Europe
-AU,Australia,Asia & Pacific
-AW,Aruba,South/Latin America
-AX,Aland Islands,Europe
-AZ,Azerbaijan,Asia & Pacific
-BA,Bosnia and Herzegovina,Europe
-BB,Barbados,South/Latin America
-BD,Bangladesh,Asia & Pacific
-BE,Belgium,Europe
-BF,Burkina Faso,Africa
-BG,Bulgaria,Europe
-BH,Bahrain,Arab States
-BI,Burundi,Africa
-BJ,Benin,Africa
-BL,Saint Barthelemy,South/Latin America
-BM,Bermuda,North America
-BN,Brunei Darussalam,Asia & Pacific
-BO,Bolivia,South/Latin America
-BQ,"Bonaire, Sint Eustatius and Saba",Unknown
-BR,Brazil,South/Latin America
-BS,Bahamas,South/Latin America
-BT,Bhutan,Asia & Pacific
-BV,Bouvet Island,South/Latin America
-BW,Botswana,Africa
-BY,Belarus,Europe
-BZ,Belize,South/Latin America
-CA,Canada,North America
-CC,Cocos (Keeling) Islands,Asia & Pacific
-CD,"Congo, the Democratic Republic of the",Africa
-CF,Central African Republic,Africa
-CG,Congo,Africa
-CH,Switzerland,Europe
-CI,Côte d'Ivoire,Africa
-CK,Cook Islands,Asia & Pacific
-CL,Chile,South/Latin America
-CM,Cameroon,Africa
-CN,China,Asia & Pacific
-CO,Colombia,South/Latin America
-CR,Costa Rica,South/Latin America
-CU,Cuba,South/Latin America
-CV,Cabo Verde,Africa
-CW,Curaçao,Unknown
-CX,Christmas Island,Asia & Pacific
-CY,Cyprus,Europe
-CZ,Czech Republic,Europe
-DE,Germany,Europe
-DJ,Djibouti,Arab States
-DK,Denmark,Europe
-DM,Dominica,South/Latin America
-DO,Dominican Republic,South/Latin America
-DZ,Algeria,Arab States
-EC,Ecuador,South/Latin America
-EE,Estonia,Europe
-EG,Egypt,Arab States
-EH,Western Sahara,Africa
-ER,Eritrea,Africa
-ES,Spain,Europe
-ET,Ethiopia,Africa
-FI,Finland,Europe
-FJ,Fiji,Asia & Pacific
-FK,Falkland Islands (Malvinas),South/Latin America
-FM,"Micronesia, Federated States of",Asia & Pacific
-FO,Faroe Islands,Europe
-FR,France,Europe
-GA,Gabon,Africa
-GB,United Kingdom,Europe
-GD,Grenada,South/Latin America
-GE,Georgia,Europe
-GF,French Guiana,South/Latin America
-GG,Guernsey,Europe
-GH,Ghana,Africa
-GI,Gibraltar,Europe
-GL,Greenland,Europe
-GM,Gambia,Africa
-GN,Guinea,Africa
-GP,Guadeloupe,South/Latin America
-GQ,Equatorial Guinea,Africa
-GR,Greece,Europe
-GS,South Georgia and the South Sandwich Islands,South/Latin America
-GT,Guatemala,South/Latin America
-GU,Guam,Asia & Pacific
-GW,Guinea-Bissau,Africa
-GY,Guyana,South/Latin America
-HK,Hong Kong,Asia & Pacific
-HM,Heard Island and McDonald Islands,Asia & Pacific
-HN,Honduras,South/Latin America
-HR,Croatia,Europe
-HT,Haiti,South/Latin America
-HU,Hungary,Europe
-ID,Indonesia,Asia & Pacific
-IE,Ireland,Europe
-IL,Israel,Europe
-IM,Isle of Man,Europe
-IN,India,Asia & Pacific
-IO,British Indian Ocean Territory,Asia & Pacific
-IQ,Iraq,Arab States
-IR,"Iran, Islamic Republic of",Asia & Pacific
-IS,Iceland,Europe
-IT,Italy,Europe
-JE,Jersey,Europe
-JM,Jamaica,South/Latin America
-JO,Jordan,Arab States
-JP,Japan,Asia & Pacific
-KE,Kenya,Africa
-KG,Kyrgyzstan,Asia & Pacific
-KH,Cambodia,Asia & Pacific
-KI,Kiribati,Asia & Pacific
-KM,Comoros,Arab States
-KN,Saint Kitts and Nevis,South/Latin America
-KP,"Korea, Democratic People's Republic of",Asia & Pacific
-KR,"Korea, Republic of",Asia & Pacific
-KW,Kuwait,Arab States
-KY,Cayman Islands,South/Latin America
-KZ,Kazakhstan,Asia & Pacific
-LA,Lao People's Democratic Republic,Asia & Pacific
-LB,Lebanon,Arab States
-LC,Saint Lucia,South/Latin America
-LI,Liechtenstein,Europe
-LK,Sri Lanka,Asia & Pacific
-LR,Liberia,Africa
-LS,Lesotho,Africa
-LT,Lithuania,Europe
-LU,Luxembourg,Europe
-LV,Latvia,Europe
-LY,Libya,Arab States
-MA,Morocco,Arab States
-MC,Monaco,Europe
-MD,"Moldova, Republic of",Europe
-ME,Montenegro,Europe
-MF,Saint Martin (French part),
-MG,Madagascar,Africa
-MH,Marshall Islands,Asia & Pacific
-MK,"Macedonia, the former Yugoslav Republic of",Europe
-ML,Mali,Africa
-MM,Myanmar,Asia & Pacific
-MN,Mongolia,Asia & Pacific
-MO,Macao,Asia & Pacific
-MP,Northern Mariana Islands,Asia & Pacific
-MQ,Martinique,South/Latin America
-MR,Mauritania,Arab States
-MS,Montserrat,South/Latin America
-MT,Malta,Europe
-MU,Mauritius,Africa
-MV,Maldives,Asia & Pacific
-MW,Malawi,Africa
-MX,Mexico,South/Latin America
-MY,Malaysia,Asia & Pacific
-MZ,Mozambique,Africa
-NA,Namibia,Africa
-NC,New Caledonia,Asia & Pacific
-NE,Niger,Africa
-NF,Norfolk Island,Asia & Pacific
-NG,Nigeria,Africa
-NI,Nicaragua,South/Latin America
-NL,Netherlands,Europe
-NO,Norway,Europe
-NP,Nepal,Asia & Pacific
-NR,Nauru,Asia & Pacific
-NU,Niue,Asia & Pacific
-NZ,New Zealand,Asia & Pacific
-OM,Oman,Arab States
-PA,Panama,South/Latin America
-PE,Peru,South/Latin America
-PF,French Polynesia,Asia & Pacific
-PG,Papua New Guinea,Asia & Pacific
-PH,Philippines,Asia & Pacific
-PK,Pakistan,Asia & Pacific
-PL,Poland,Europe
-PM,Saint Pierre and Miquelon,North America
-PN,Pitcairn,Asia & Pacific
-PR,Puerto Rico,South/Latin America
-PS,"Palestine, State of",Arab States
-PT,Portugal,Europe
-PW,Palau,Asia & Pacific
-PY,Paraguay,South/Latin America
-QA,Qatar,Arab States
-RE,Réunion,Asia & Pacific
-RO,Romania,Europe
-RS,Serbia,Europe
-RU,Russian Federation,Europe
-RW,Rwanda,Africa
-SA,Saudi Arabia,Arab States
-SB,Solomon Islands,Asia & Pacific
-SC,Seychelles,Africa
-SD,Sudan,Arab States
-SE,Sweden,Europe
-SG,Singapore,Asia & Pacific
-SH,Saint Helena,Africa
-SI,Slovenia,Europe
-SJ,Svalbard and Jan Mayen,Europe
-SK,Slovakia,Europe
-SL,Sierra Leone,Africa
-SM,San Marino,Europe
-SN,Senegal,Africa
-SO,Somalia,Arab States
-SR,Suriname,South/Latin America
-SS,South Sudan,Africa
-ST,Sao Tome and Principe,Africa
-SV,El Salvador,South/Latin America
-SX,Sint Maarten (Dutch part),Unknown
-SY,Syrian Arab Republic,Asia & Pacific
-SZ,Swaziland,Africa
-TC,Turks and Caicos Islands,South/Latin America
-TD,Chad,Africa
-TF,French Southern Territories,Asia & Pacific
-TG,Togo,Africa
-TH,Thailand,Asia & Pacific
-TJ,Tajikistan,Asia & Pacific
-TK,Tokelau,Asia & Pacific
-TL,Timor-Leste,Asia & Pacific
-TM,Turkmenistan,Asic & Pacific
-TN,Tunisia,Arab States
-TO,Tonga,Asia & Pacific
-TR,Turkey,Europe
-TT,Trinidad and Tobago,South/Latin America
-TV,Tuvalu,Asia & Pacific
-TW,Taiwan,Asia & Pacific
-TZ,"Tanzania, United Republic of",Africa
-UA,Ukraine,Europe
-UG,Uganda,Africa
-UM,United States Minor Outlying Islands,Asia & Pacific
-US,United States,North America
-UY,Uruguay,South/Latin America
-UZ,Uzbekistan,Asia & Pacific
-VA,Holy See (Vatican City State),Europe
-VC,Saint Vincent and the Grenadines,South/Latin America
-VE,Venezuela,South/Latin America
-VG,"Virgin Islands, British",South/Latin America
-VI,"Virgin Islands, U.S.",South/Latin America
-VN,Vietnam,Asia & Pacific
-VU,Vanuatu,Asia & Pacific
-WF,Wallis and Futuna,Asia & Pacific
-WS,Samoa,Asia & Pacific
-YE,Yemen,Arab States
-YT,Mayotte,Africa
-ZA,South Africa,Africa
-ZM,Zambia,Africa
-ZW,Zimbabwe,Africa
-XK,Kosovo,Europe
+Code,Country Name,Region,
+AD,Andorra,Europe,AND
+AE,United Arab Emirates,Arab States,ARE
+AF,Afghanistan,Asia & Pacific,AFG
+AG,Antigua and Barbuda,South/Latin America,ATG
+AI,Anguilla,South/Latin America,AIA
+AL,Albania,Europe,ALB
+AM,Armenia,Europe,ARM
+AO,Angola,Africa,AGO
+AQ,Antarctica,Asia & Pacific,ATA
+AR,Argentina,South/Latin America,ARG
+AS,American Samoa,Asia & Pacific,ASM
+AT,Austria,Europe,AUT
+AU,Australia,Asia & Pacific,AUS
+AW,Aruba,South/Latin America,ABW
+AX,Aland Islands,Europe,ALA
+AZ,Azerbaijan,Asia & Pacific,AZE
+BA,Bosnia and Herzegovina,Europe,BIH
+BB,Barbados,South/Latin America,BRB
+BD,Bangladesh,Asia & Pacific,BGD
+BE,Belgium,Europe,BEL
+BF,Burkina Faso,Africa,BFA
+BG,Bulgaria,Europe,BGR
+BH,Bahrain,Arab States,BHR
+BI,Burundi,Africa,BDI
+BJ,Benin,Africa,BEN
+BL,Saint Barthelemy,South/Latin America,BLM
+BM,Bermuda,North America,BMU
+BN,Brunei Darussalam,Asia & Pacific,BRN
+BO,Bolivia,South/Latin America,BOL
+BQ,"Bonaire, Sint Eustatius and Saba",Unknown,BES
+BR,Brazil,South/Latin America,BRA
+BS,Bahamas,South/Latin America,BHS
+BT,Bhutan,Asia & Pacific,BTN
+BV,Bouvet Island,South/Latin America,BVT
+BW,Botswana,Africa,BWA
+BY,Belarus,Europe,BLR
+BZ,Belize,South/Latin America,BLZ
+CA,Canada,North America,CAN
+CC,Cocos (Keeling) Islands,Asia & Pacific,CCK
+CD,"Congo, the Democratic Republic of the",Africa,COD
+CF,Central African Republic,Africa,CAF
+CG,Congo,Africa,COG
+CH,Switzerland,Europe,CHE
+CI,Côte d'Ivoire,Africa,CIV
+CK,Cook Islands,Asia & Pacific,COK
+CL,Chile,South/Latin America,CHL
+CM,Cameroon,Africa,CMR
+CN,China,Asia & Pacific,CHN
+CO,Colombia,South/Latin America,COL
+CR,Costa Rica,South/Latin America,CRI
+CU,Cuba,South/Latin America,CUB
+CV,Cabo Verde,Africa,CPV
+CW,Curaçao,Unknown,CUW
+CX,Christmas Island,Asia & Pacific,CXR
+CY,Cyprus,Europe,CYP
+CZ,Czech Republic,Europe,CZE
+DE,Germany,Europe,DEU
+DJ,Djibouti,Arab States,DJI
+DK,Denmark,Europe,DNK
+DM,Dominica,South/Latin America,DMA
+DO,Dominican Republic,South/Latin America,DOM
+DZ,Algeria,Arab States,DZA
+EC,Ecuador,South/Latin America,ECU
+EE,Estonia,Europe,EST
+EG,Egypt,Arab States,EGY
+EH,Western Sahara,Africa,ESH
+ER,Eritrea,Africa,ERI
+ES,Spain,Europe,ESP
+ET,Ethiopia,Africa,ETH
+FI,Finland,Europe,FIN
+FJ,Fiji,Asia & Pacific,FJI
+FK,Falkland Islands (Malvinas),South/Latin America,FLK
+FM,"Micronesia, Federated States of",Asia & Pacific,FSM
+FO,Faroe Islands,Europe,FRO
+FR,France,Europe,FRA
+GA,Gabon,Africa,GAB
+GB,United Kingdom,Europe,GBR
+GD,Grenada,South/Latin America,GRD
+GE,Georgia,Europe,GEO
+GF,French Guiana,South/Latin America,GUF
+GG,Guernsey,Europe,GGY
+GH,Ghana,Africa,GHA
+GI,Gibraltar,Europe,GIB
+GL,Greenland,Europe,GRL
+GM,Gambia,Africa,GMB
+GN,Guinea,Africa,GIN
+GP,Guadeloupe,South/Latin America,GLP
+GQ,Equatorial Guinea,Africa,GNQ
+GR,Greece,Europe,GRC
+GS,South Georgia and the South Sandwich Islands,South/Latin America,SGS
+GT,Guatemala,South/Latin America,GTM
+GU,Guam,Asia & Pacific,GUM
+GW,Guinea-Bissau,Africa,GNB
+GY,Guyana,South/Latin America,GUY
+HK,Hong Kong,Asia & Pacific,HKG
+HM,Heard Island and McDonald Islands,Asia & Pacific,HMD
+HN,Honduras,South/Latin America,HND
+HR,Croatia,Europe,HRV
+HT,Haiti,South/Latin America,HTI
+HU,Hungary,Europe,HUN
+ID,Indonesia,Asia & Pacific,IDN
+IE,Ireland,Europe,IRL
+IL,Israel,Europe,ISR
+IM,Isle of Man,Europe,IMN
+IN,India,Asia & Pacific,IND
+IO,British Indian Ocean Territory,Asia & Pacific,IOT
+IQ,Iraq,Arab States,IRQ
+IR,"Iran, Islamic Republic of",Asia & Pacific,IRN
+IS,Iceland,Europe,ISL
+IT,Italy,Europe,ITA
+JE,Jersey,Europe,JEY
+JM,Jamaica,South/Latin America,JAM
+JO,Jordan,Arab States,JOR
+JP,Japan,Asia & Pacific,JPN
+KE,Kenya,Africa,KEN
+KG,Kyrgyzstan,Asia & Pacific,KGZ
+KH,Cambodia,Asia & Pacific,KHM
+KI,Kiribati,Asia & Pacific,KIR
+KM,Comoros,Arab States,COM
+KN,Saint Kitts and Nevis,South/Latin America,KNA
+KP,"Korea, Democratic People's Republic of",Asia & Pacific,PRK
+KR,"Korea, Republic of",Asia & Pacific,KOR
+KW,Kuwait,Arab States,KWT
+KY,Cayman Islands,South/Latin America,CYM
+KZ,Kazakhstan,Asia & Pacific,KAZ
+LA,Lao People's Democratic Republic,Asia & Pacific,LAO
+LB,Lebanon,Arab States,LBN
+LC,Saint Lucia,South/Latin America,LCA
+LI,Liechtenstein,Europe,LIE
+LK,Sri Lanka,Asia & Pacific,LKA
+LR,Liberia,Africa,LBR
+LS,Lesotho,Africa,LSO
+LT,Lithuania,Europe,LTU
+LU,Luxembourg,Europe,LUX
+LV,Latvia,Europe,LVA
+LY,Libya,Arab States,LBY
+MA,Morocco,Arab States,MAR
+MC,Monaco,Europe,MCO
+MD,"Moldova, Republic of",Europe,MDA
+ME,Montenegro,Europe,MNE
+MF,Saint Martin (French part),,MAF
+MG,Madagascar,Africa,MDG
+MH,Marshall Islands,Asia & Pacific,MHL
+MK,"Macedonia, the former Yugoslav Republic of",Europe,MKD
+ML,Mali,Africa,MLI
+MM,Myanmar,Asia & Pacific,MMR
+MN,Mongolia,Asia & Pacific,MNG
+MO,Macao,Asia & Pacific,MAC
+MP,Northern Mariana Islands,Asia & Pacific,MNP
+MQ,Martinique,South/Latin America,MTQ
+MR,Mauritania,Arab States,MRT
+MS,Montserrat,South/Latin America,MSR
+MT,Malta,Europe,MLT
+MU,Mauritius,Africa,MUS
+MV,Maldives,Asia & Pacific,MDV
+MW,Malawi,Africa,MWI
+MX,Mexico,South/Latin America,MEX
+MY,Malaysia,Asia & Pacific,MYS
+MZ,Mozambique,Africa,MOZ
+NA,Namibia,Africa,NAM
+NC,New Caledonia,Asia & Pacific,NCL
+NE,Niger,Africa,NER
+NF,Norfolk Island,Asia & Pacific,NFK
+NG,Nigeria,Africa,NGA
+NI,Nicaragua,South/Latin America,NIC
+NL,Netherlands,Europe,NLD
+NO,Norway,Europe,NOR
+NP,Nepal,Asia & Pacific,NPL
+NR,Nauru,Asia & Pacific,NRU
+NU,Niue,Asia & Pacific,NIU
+NZ,New Zealand,Asia & Pacific,NZL
+OM,Oman,Arab States,OMN
+PA,Panama,South/Latin America,PAN
+PE,Peru,South/Latin America,PER
+PF,French Polynesia,Asia & Pacific,PYF
+PG,Papua New Guinea,Asia & Pacific,PNG
+PH,Philippines,Asia & Pacific,PHL
+PK,Pakistan,Asia & Pacific,PAK
+PL,Poland,Europe,POL
+PM,Saint Pierre and Miquelon,North America,SPM
+PN,Pitcairn,Asia & Pacific,PCN
+PR,Puerto Rico,South/Latin America,PRI
+PS,"Palestine, State of",Arab States,PSE
+PT,Portugal,Europe,PRT
+PW,Palau,Asia & Pacific,PLW
+PY,Paraguay,South/Latin America,PRY
+QA,Qatar,Arab States,QAT
+RE,Réunion,Asia & Pacific,REU
+RO,Romania,Europe,ROU
+RS,Serbia,Europe,SRB
+RU,Russian Federation,Europe,RUS
+RW,Rwanda,Africa,RWA
+SA,Saudi Arabia,Arab States,SAU
+SB,Solomon Islands,Asia & Pacific,SLB
+SC,Seychelles,Africa,SYC
+SD,Sudan,Arab States,SDN
+SE,Sweden,Europe,SWE
+SG,Singapore,Asia & Pacific,SGP
+SH,Saint Helena,Africa,SHN
+SI,Slovenia,Europe,SVN
+SJ,Svalbard and Jan Mayen,Europe,SJM
+SK,Slovakia,Europe,SVK
+SL,Sierra Leone,Africa,SLE
+SM,San Marino,Europe,SMR
+SN,Senegal,Africa,SEN
+SO,Somalia,Arab States,SOM
+SR,Suriname,South/Latin America,SUR
+SS,South Sudan,Africa,SSD
+ST,Sao Tome and Principe,Africa,STP
+SV,El Salvador,South/Latin America,SLV
+SX,Sint Maarten (Dutch part),Unknown,SXM
+SY,Syrian Arab Republic,Asia & Pacific,SYR
+SZ,Swaziland,Africa,SWZ
+TC,Turks and Caicos Islands,South/Latin America,TCA
+TD,Chad,Africa,TCD
+TF,French Southern Territories,Asia & Pacific,ATF
+TG,Togo,Africa,TGO
+TH,Thailand,Asia & Pacific,THA
+TJ,Tajikistan,Asia & Pacific,TJK
+TK,Tokelau,Asia & Pacific,TKL
+TL,Timor-Leste,Asia & Pacific,TLS
+TM,Turkmenistan,Asic & Pacific,TKM
+TN,Tunisia,Arab States,TUN
+TO,Tonga,Asia & Pacific,TON
+TR,Turkey,Europe,TUR
+TT,Trinidad and Tobago,South/Latin America,TTO
+TV,Tuvalu,Asia & Pacific,TUV
+TW,Taiwan,Asia & Pacific,TWN
+TZ,"Tanzania, United Republic of",Africa,TZA
+UA,Ukraine,Europe,UKR
+UG,Uganda,Africa,UGA
+UM,United States Minor Outlying Islands,Asia & Pacific,UMI
+US,United States,North America,USA
+UY,Uruguay,South/Latin America,URY
+UZ,Uzbekistan,Asia & Pacific,UZB
+VA,Holy See (Vatican City State),Europe,VAT
+VC,Saint Vincent and the Grenadines,South/Latin America,VCT
+VE,Venezuela,South/Latin America,VEN
+VG,"Virgin Islands, British",South/Latin America,VGB
+VI,"Virgin Islands, U.S.",South/Latin America,VIR
+VN,Vietnam,Asia & Pacific,VNM
+VU,Vanuatu,Asia & Pacific,VUT
+WF,Wallis and Futuna,Asia & Pacific,WLF
+WS,Samoa,Asia & Pacific,WSM
+YE,Yemen,Arab States,YEM
+YT,Mayotte,Africa,MYT
+ZA,South Africa,Africa,ZAF
+ZM,Zambia,Africa,ZMB
+ZW,Zimbabwe,Africa,ZWE
+XK,Kosovo,Europe,
