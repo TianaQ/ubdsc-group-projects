@@ -56,7 +56,7 @@ def get_country_name(country_code):
         name = COUNTRY_DICT[country_code][0]
     except:
         print("Missing country code: " + country_code)
-        name = 'NA'
+        name = ''
     return name
 
 def get_region(country_code):
@@ -64,7 +64,7 @@ def get_region(country_code):
         region = COUNTRY_DICT[country_code][1]
     except:
         print("Missing country code: " + country_code)
-        region = 'NA'
+        region = ''
     return region
 
 def get_iso_code(country_code):
@@ -72,7 +72,7 @@ def get_iso_code(country_code):
         iso_code = COUNTRY_DICT[country_code][2]
     except:
         print("Missing ISO code: " + country_code)
-        iso_code = 'NA'
+        iso_code = ''
     return iso_code
 
 freelancers['city'] = freelancers['Location'].apply(get_city)
@@ -83,11 +83,11 @@ freelancers['iso_code'] = freelancers['country_code'].apply(get_iso_code)
 #### LOCATION IN FREELANCERS DATAFRAME END ####
 
 freelancers.info()
-freelancers.to_csv('freelancers.csv', sep=',', encoding='utf-8', index=False)
+#freelancers.to_csv('freelancers.csv', sep=',', encoding='utf-8', index=False)
 
 
 #### SKILLS IN FREELANCERS DATAFRAME START ####
-#Converting string of skills to list of skills
+# Converting string of skills to list of skills
 def get_skill_list_from_string(skill_string):
     if len(skill_string) > 0:
         skill_list = skill_string[2:-2].split("', '")
@@ -112,7 +112,8 @@ print(len(SKILL_LIST))
 freelancers['skill_list'] = freelancers['Skills'].apply(get_skill_list_from_string)
 freelancers['num_of_skills'] = freelancers['skill_list'].apply(len)
 
-freelancers.to_csv('freelancers_num_skills.csv', sep=',', encoding='utf-8', index=False)
+#freelancers.to_csv('freelancers_num_skills.csv', sep=',', encoding='utf-8', index=False)
+
 
 #creating new columns for each skill - if a freelancer has skill
 def skill_in_skill_list_column( skill_col, skill):
@@ -122,19 +123,74 @@ for SKILL in SKILL_LIST:
     freelancers[SKILL] = freelancers['skill_list'].apply(skill_in_skill_list_column, args=(SKILL,))
 
 # Writing csv with skill columns 
-freelancers.info()
-freelancers.to_csv('freelancers_skills.csv', sep=',', encoding='utf-8', index=False)
+#freelancers.info()
+#freelancers.to_csv('freelancers_skills.csv', sep=',', encoding='utf-8', index=False)
 
 #### SKILLS IN FREELANCERS DATAFRAME END ####
 
 #### MAKING CSV OF SKILLS ####
-skill_freq = []
+skills_world = []
 for SKILL in SKILL_LIST:
     skill_subset = freelancers[freelancers[SKILL] == True]
+    skill_pph_median = skill_subset['dollars_ph'].median()
     skill_pph_mean = skill_subset['dollars_ph'].mean()
     skill_pph_std = skill_subset['dollars_ph'].std()
-    skill_freq.append((SKILL, freelancers[SKILL].sum(), skill_pph_mean, skill_pph_std))
+    skills_world.append((SKILL, freelancers[SKILL].sum(), skill_pph_median, skill_pph_mean, skill_pph_std))
  
-skills_df = pd.DataFrame(skill_freq, columns=['skill', 'frequency', 'mean', 'std'])
-skills_df.info()
-skills_df.to_csv('skills.csv', sep='\t', encoding='utf-8', index=False)
+world_skills_df = pd.DataFrame(skills_world, columns=['skills', 'world_num', 'median', 'mean', 'std'])
+world_skills_df.info()
+#world_skills_df.to_csv('skills_world.csv', sep='\t', encoding='utf-8', index=False)
+
+
+#### SKILLS BY COUNTRY ####
+country_list = sorted(freelancers['iso_code'].unique().tolist())
+
+
+skills_dict = {}
+count = 0
+for SKILL in SKILL_LIST:
+    if count % 10 == 0:
+        print(count)
+    count+=1
+    skill_subset = freelancers[freelancers[SKILL] == True]
+    for country in country_list:
+        key = (SKILL, country)
+        country_skill_subset = skill_subset[skill_subset['iso_code'] == country]
+        if country_skill_subset.shape[0] > 0:
+            skills_dict[key] = [country_skill_subset.shape[0], 
+                        country_skill_subset['dollars_ph'].mean(), 
+                        country_skill_subset['dollars_ph'].median()]
+        else: 
+            skills_dict[key] = [0, 0, 0]
+
+
+print('Dict built')
+
+mux = pd.MultiIndex.from_tuples(skills_dict.keys(), names=('skills', 'iso_code'))
+skills_dict_df = pd.DataFrame(list(skills_dict.values()), index=mux)
+skills_dict_df.columns = ['num_freelancers', 'mean_pph', 'median_pph']
+skills_dict_df.info()
+
+skills_iso_freq_df = world_skills_df.copy().drop(columns=['median', 'mean', 'std'])
+skills_iso_median_df = world_skills_df.copy().drop(columns=['world_num', 'mean', 'std'])
+skills_iso_mean_df = world_skills_df.copy().drop(columns = ['world_num', 'median', 'std'])
+for country in country_list:
+    country_num = skills_dict_df.xs(country, level='iso_code').reset_index(level='skills').drop(columns=['mean_pph', 'median_pph'])
+    country_num.rename(columns={'num_freelancers':country}, inplace=True)
+    skills_iso_freq_df = pd.merge(skills_iso_freq_df, country_num, 'right', 'skills')
+    
+    country_median = skills_dict_df.xs(country, level='iso_code').reset_index(level='skills').drop(columns=['mean_pph', 'num_freelancers'])
+    country_median.rename(columns={'median_pph':country}, inplace=True)
+    skills_iso_median_df = pd.merge(skills_iso_median_df, country_median, 'right', 'skills')
+    
+    country_mean = skills_dict_df.xs(country, level='iso_code').reset_index(level='skills').drop(columns=['num_freelancers', 'median_pph'])
+    country_mean.rename(columns={'mean_pph':country}, inplace=True)
+    skills_iso_mean_df = pd.merge(skills_iso_mean_df, country_mean, 'right', 'skills')
+skills_iso_freq_df.info()
+skills_iso_median_df.info()
+skills_iso_mean_df.info()
+
+skills_iso_freq_df.to_csv('skills_country_freq.csv', sep='\t', encoding='utf-8', index=False)
+skills_iso_median_df.to_csv('skills_country_median.csv', sep='\t', encoding='utf-8', index=False)
+skills_iso_mean_df.to_csv('skills_country_mean.csv', sep='\t', encoding='utf-8', index=False)
+
