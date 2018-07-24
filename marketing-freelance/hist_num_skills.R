@@ -1,4 +1,4 @@
-df <- read.csv('freelancers_num_skills.csv')
+df <- read.csv('csv/freelancers_loc_num_skills.csv')
 par(cex = 0.8) #font size
 hist(df$num_of_skills, main = '', labels = TRUE, col='gray', ylim=c(0, 2500), 
      xlab = 'Skills per person', xlim=c(0, 20), breaks = seq(0, 19, by = 1), 

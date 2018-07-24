@@ -50,5 +50,5 @@ def make_world_map_html(country_codes, country_data, file_name, map_title, legen
     )
     
     fig = dict( data=data, layout=layout )
-    plotly.offline.plot(fig, validate=False, filename=file_name + '.html')
+    plotly.offline.plot(fig, validate=False, filename='html/' + file_name + '.html')
     

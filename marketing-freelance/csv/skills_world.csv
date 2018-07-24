@@ -1,4 +1,4 @@
-skills	frequency	median	mean	std
+skills	w_offers	w_median_pph	w_mean_pph	std
 (home) house design	39	33.0	34.76923076923077	16.104039275028484
 (video) game design	2	41.5	41.5	33.23401871576773
 (video) game development	12	15.5	20.75	13.239918978054757
