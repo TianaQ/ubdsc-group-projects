@@ -29,7 +29,7 @@ def make_world_map_html(country_codes, country_data, file_name, map_title, legen
             reversescale = True,
             marker = dict(
                 line = dict (
-                    color = 'rgb(180,180,180)',
+                    color = 'rgb(255,255,255)',
                     width = 0.5
                 ) ),
             colorbar = dict(
